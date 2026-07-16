@@ -1,1 +1,81 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>3D Product Card Effect — Tarjeta 3D interactiva</title><meta name="description" content="Tarjeta de producto con inclinación 3D, reflejo suave y retorno elástico sin librerías."><link rel="canonical" href="https://3d-product-card-effect.netlify.app/"><meta property="og:title" content="3D Product Card Effect"><meta property="og:description" content="Tarjeta 3D accesible hecha con CSS y JavaScript."><meta property="og:image" content="https://3d-product-card-effect.netlify.app/assets/og-image.svg"><meta property="og:type" content="website"><meta property="og:url" content="https://3d-product-card-effect.netlify.app/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="3D Product Card Effect"><meta name="twitter:description" content="Tarjeta 3D accesible hecha con CSS y JavaScript."><meta name="twitter:image" content="https://3d-product-card-effect.netlify.app/assets/og-image.svg"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="script.js" defer></script></head><body><a class="skip" href="#demo">Saltar a la demo</a><header><a href="https://github.com/NachoTorresRD" target="_blank" rel="noreferrer"><b>NT</b> Depth Lab</a><span>04 / 10</span></header><main><section class="intro"><p>Profundidad sin librerías</p><h1>Una tarjeta que ocupa <em>espacio.</em></h1><span>Inclina el producto con el cursor. El reflejo y las capas responden a la misma geometría, sin sacrificar la lectura.</span></section><section class="scene" id="demo" aria-label="Demostración de tarjeta de producto 3D"><article class="product" id="product"><div class="glare" aria-hidden="true"></div><div class="visual"><span class="edition">EDICIÓN DEMO</span><div class="object" aria-hidden="true"><i></i><b>NT</b></div></div><div class="details"><p>Recurso educativo</p><h2>Tarjeta 3D para interfaces</h2><p>Ejemplo reutilizable con perspectiva, retorno elástico y guardas para puntero fino.</p><ul><li>Sin dependencias</li><li>Responsive</li><li>Movimiento accesible</li></ul><div class="purchase"><span><small>Precio de ejemplo</small><strong>US$ 24</strong></span><button type="button" id="try">Probar inclinación</button></div></div></article></section><section class="actions"><a class="primary" href="https://github.com/NachoTorresRD/3d-product-card-effect" target="_blank" rel="noreferrer">Ver código en GitHub ↗</a><a href="https://wa.me/18093408435?text=Hola%20Nacho,%20vi%20el%20efecto%203D%20Product%20Card%20Effect%20y%20me%20gustar%C3%ADa%20usarlo%20en%20mi%20p%C3%A1gina." target="_blank" rel="noreferrer">Quiero este efecto en mi página</a></section></main><footer><p>Built with <a href="https://github.com/NachoTorresRD/nt-skill-supreme" target="_blank" rel="noreferrer">NT-SKILL SUPREME</a> by Nacho Torres</p><a href="https://www.ntdesweb.com" target="_blank" rel="noreferrer">NTDESWEB</a></footer><div id="status" class="sr-only" role="status" aria-live="polite"></div></body></html>
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>3D Product Card Effect — Tarjeta 3D interactiva</title>
+<meta name="description" content="Tarjeta de producto con inclinación 3D, reflejo suave y retorno elástico sin librerías.">
+<link rel="canonical" href="https://3d-product-card-effect.netlify.app/">
+<meta property="og:title" content="3D Product Card Effect">
+<meta property="og:description" content="Tarjeta 3D accesible hecha con CSS y JavaScript.">
+<meta property="og:image" content="https://3d-product-card-effect.netlify.app/assets/og-image.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://3d-product-card-effect.netlify.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="3D Product Card Effect">
+<meta name="twitter:description" content="Tarjeta 3D accesible hecha con CSS y JavaScript.">
+<meta name="twitter:image" content="https://3d-product-card-effect.netlify.app/assets/og-image.svg">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="capture.css">
+<script src="script.js" defer>
+</script>
+</head>
+<body>
+<a class="skip" href="#demo">Saltar a la demo</a>
+<header>
+<a href="https://github.com/NachoTorresRD" target="_blank" rel="noreferrer">
+<b>NT</b> Depth Lab</a>
+<span>04 / 10</span>
+</header>
+<main>
+<section class="intro">
+<p>Profundidad sin librerías</p>
+<h1>Profundidad que <em>sale de la pantalla.</em>
+</h1>
+<span>Inclina la pieza y mira cómo reflejo, capas y perspectiva responden como un solo objeto.</span>
+</section>
+<section class="scene" id="demo" aria-label="Demostración de tarjeta de producto 3D">
+<article class="product" id="product">
+<div class="glare" aria-hidden="true">
+</div>
+<div class="visual">
+<span class="edition">EDICIÓN DEMO</span>
+<div class="object" aria-hidden="true">
+<i>
+</i>
+<b>NT</b>
+</div>
+</div>
+<div class="details">
+<p>Recurso educativo</p>
+<h2>Tarjeta 3D para interfaces</h2>
+<p>Ejemplo reutilizable con perspectiva, retorno elástico y guardas para puntero fino.</p>
+<ul>
+<li>Sin dependencias</li>
+<li>Responsive</li>
+<li>Movimiento accesible</li>
+</ul>
+<div class="purchase">
+<span>
+<small>Nivel de profundidad</small>
+<strong>03 CAPAS</strong>
+</span>
+<button type="button" id="try">Probar inclinación</button>
+</div>
+</div>
+</article>
+</section>
+<section class="actions">
+<a class="primary" href="https://github.com/NachoTorresRD/3d-product-card-effect" target="_blank" rel="noreferrer">Ver código ↗</a>
+<a href="https://wa.me/18093408435?text=Hola%20Nacho,%20vi%20el%20efecto%203D%20Product%20Card%20Effect%20y%20me%20gustar%C3%ADa%20usarlo%20en%20mi%20p%C3%A1gina." target="_blank" rel="noreferrer">Usar este efecto</a>
+</section>
+</main>
+<footer>
+<p>Built with <a href="https://github.com/NachoTorresRD/nt-skill-supreme" target="_blank" rel="noreferrer">NT-SKILL SUPREME</a> by Nacho Torres</p>
+<a href="https://www.ntdesweb.com" target="_blank" rel="noreferrer">NTDESWEB</a>
+</footer>
+<div id="status" class="sr-only" role="status" aria-live="polite">
+</div>
+</body>
+</html>

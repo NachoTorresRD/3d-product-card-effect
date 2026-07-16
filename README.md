@@ -10,6 +10,7 @@ Tarjeta de producto con inclinación 3D, profundidad por capas, reflejo dinámic
 - Reflejo sincronizado y retorno con curva spring.
 - Botón táctil para demostrar la inclinación.
 - Guarda de puntero fino y movimiento reducido.
+- Pieza, contenido y controles visibles en una sola toma.
 
 ## Demo en vivo
 
@@ -21,7 +22,7 @@ Clona el repositorio, entra en `3d-product-card-effect` y abre `index.html`.
 
 ## Estructura del proyecto
 
-La interfaz vive en `index.html`, el volumen en `style.css`, la geometría en `script.js` y las vistas previas en `assets/`.
+La interfaz vive en `index.html`, el volumen en `style.css`, la toma compacta en `capture.css`, la geometría en `script.js` y las vistas previas en `assets/`.
 
 ## Cómo personalizarlo
 

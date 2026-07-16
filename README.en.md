@@ -10,6 +10,7 @@ A product card with 3D tilt, layered depth, dynamic glare, and spring-like retur
 - Synchronized glare and spring return curve.
 - Touch-friendly button to demonstrate the tilt.
 - Fine-pointer and reduced-motion safeguards.
+- Object, content, and controls visible in one shot.
 
 ## Live demo
 
@@ -21,7 +22,7 @@ Clone the repository, enter `3d-product-card-effect`, and open `index.html`.
 
 ## Project structure
 
-The interface is in `index.html`, depth in `style.css`, geometry in `script.js`, and previews in `assets/`.
+The interface is in `index.html`, depth in `style.css`, the compact shot in `capture.css`, geometry in `script.js`, and previews in `assets/`.
 
 ## Customization
 
