@@ -14,7 +14,7 @@ A product card with 3D tilt, layered depth, dynamic glare, and spring-like retur
 
 ## Live demo
 
-[3d.fx.ntdesweb.dev](https://3d.fx.ntdesweb.dev/)
+[card3d.ntdesweb.dev](https://card3d.ntdesweb.dev/)
 
 ## Installation
 

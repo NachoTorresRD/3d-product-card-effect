@@ -14,7 +14,7 @@ Tarjeta de producto con inclinación 3D, profundidad por capas, reflejo dinámic
 
 ## Demo en vivo
 
-[3d.fx.ntdesweb.dev](https://3d.fx.ntdesweb.dev/)
+[card3d.ntdesweb.dev](https://card3d.ntdesweb.dev/)
 
 ## Instalación
 
