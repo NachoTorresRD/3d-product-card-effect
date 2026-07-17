@@ -14,7 +14,7 @@ Tarjeta de producto con inclinación 3D, profundidad por capas, reflejo dinámic
 
 ## Demo en vivo
 
-[3d-product-card-effect.netlify.app](https://3d-product-card-effect.netlify.app)
+[3d.fx.ntdesweb.dev](https://3d.fx.ntdesweb.dev/)
 
 ## Instalación
 

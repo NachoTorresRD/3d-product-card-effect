@@ -14,7 +14,7 @@ A product card with 3D tilt, layered depth, dynamic glare, and spring-like retur
 
 ## Live demo
 
-[3d-product-card-effect.netlify.app](https://3d-product-card-effect.netlify.app)
+[3d.fx.ntdesweb.dev](https://3d.fx.ntdesweb.dev/)
 
 ## Installation
 
