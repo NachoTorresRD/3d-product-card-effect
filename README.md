@@ -16,6 +16,12 @@ Tarjeta de producto con inclinación 3D, profundidad por capas, reflejo dinámic
 
 [card3d.ntdesweb.dev](https://card3d.ntdesweb.dev/)
 
+## Más demos de efectos
+
+- [Before/After Image Slider](https://fxpreview.ntdesweb.dev/)
+- [Hacker Text](https://hacker.ntdesweb.dev/)
+- [Magnetic Button](https://magnetic.ntdesweb.dev/)
+
 ## Instalación
 
 Clona el repositorio, entra en `3d-product-card-effect` y abre `index.html`.

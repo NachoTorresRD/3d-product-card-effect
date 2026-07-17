@@ -16,6 +16,12 @@ A product card with 3D tilt, layered depth, dynamic glare, and spring-like retur
 
 [card3d.ntdesweb.dev](https://card3d.ntdesweb.dev/)
 
+## More effect demos
+
+- [Before/After Image Slider](https://fxpreview.ntdesweb.dev/)
+- [Hacker Text](https://hacker.ntdesweb.dev/)
+- [Magnetic Button](https://magnetic.ntdesweb.dev/)
+
 ## Installation
 
 Clone the repository, enter `3d-product-card-effect`, and open `index.html`.
